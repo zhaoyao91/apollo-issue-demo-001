@@ -1,0 +1,20 @@
+{
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "prettier": "^1.17.1"
+  },
+  "dependencies": {
+    "@bucuo/async-sleep": "0.0.0",
+    "@bucuo/json-logger": "0.0.5",
+    "@bucuo/run-main": "0.0.2",
+    "apollo-server": "^2.5.0",
+    "faker": "^4.1.0",
+    "graphql": "^14.3.1",
+    "graphql-subscriptions": "^1.1.0"
+  }
+}
